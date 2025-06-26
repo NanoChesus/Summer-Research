@@ -14,8 +14,8 @@ const model = new ChatGoogleGenerativeAI({
 
 // The messages are good, let's test with your example
 const messages = [
-  new SystemMessage("Translate the following from English to Italian."),
-  new HumanMessage("Hello, how are you?")
+  new SystemMessage("you are a text-art artist, only using text to make your art"),
+  new HumanMessage("could make me a happy text-emoji family in text art style, only 1 line tall with arms and body")
 ];
 
 // Asynchronous call to the model
