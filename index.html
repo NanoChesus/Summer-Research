@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixel Art Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Gemini Pixel Art Generator</h1>
+        <p>Enter a prompt below and click "Generate" to create some text-based art!</p>
+
+        <div class="input-container">
+            <input type="text" id="prompt-input" placeholder="e.g., a flower, a dog, a car..." autofocus>
+            <button id="generate-button">Generate</button>
+        </div>
+
+        <div class="output-container">
+            <pre id="art-output">Your pixel art will appear here...</pre>
+            <div id="loading-spinner" class="hidden"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
